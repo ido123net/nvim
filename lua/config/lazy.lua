@@ -21,11 +21,11 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
     {
-      "folke/tokyonight.nvim",
+      "catppuccin/nvim",
       lazy = false,
       priority = 1000,
       config = function()
-        vim.cmd.colorscheme "tokyonight"
+        vim.cmd.colorscheme "catppuccin"
       end,
     },
     { import = "plugins" },
